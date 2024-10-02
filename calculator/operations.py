@@ -63,4 +63,4 @@ def divide(a, b):
     if b != 0:
         return a / b
     else:
-        raise ValueError("Error: Divide by Zero occurred!")
+        raise ValueError("Cannot divide by zero")

@@ -61,5 +61,5 @@ def test_divide_by_zero():
         None
     """
     calc = Calculation(Decimal('5'), Decimal('0'), divide)
-    with pytest.raises(ValueError, match="Error: Divide by Zero occurred!"):
+    with pytest.raises(ValueError, match="Cannot divide by zero"):
         calc.operate()
